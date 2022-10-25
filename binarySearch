@@ -3,19 +3,22 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 function binary(arr, nr){
   
   let start = 0
-  let end = arr.length;
-  let middle = Math.floor((start + end)/2);
+  let end = arr.length - 1;
   
+  while(start <= end){
+  let middle = Math.floor((start + end)/2);
   if(arr[middle] === nr){
     return arr[middle]
   }
   if(arr[middle] > nr){
-   end = middle
+   end = middle - 1;
   }
   if(arr[middle] < nr){
-  start = middle
+  start = middle + 1
   }
   
-  return "nothing";
+  }
+  
+  return -1;
   
 }
