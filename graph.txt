@@ -1,0 +1,9 @@
+G = {V, E}. - graph is a collection of vertiges and edges
+
+Oriented and Neoriented graphs
+
+Graphs are used for searching the shortest way from one point to another;
+
+dfs - depth first search
+
+bfs - breadth first search
