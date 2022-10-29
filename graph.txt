@@ -1,8 +1,32 @@
-G = {V, E}. - graph is a collection of vertiges and edges
+G = {V, E}. - graph is a collection of vertiges(single value) and edges(connection between two nodes)
 
 Oriented and Neoriented graphs
 
+Directed  A -----> B one direction
+Undirected A<----->B goes both ways
+Wheighted graph - edges have meaning. ----> 3000km
+
+
 Graphs are used for searching the shortest way from one point to another;
+
+
+How to represent a graph??
+
+1. Adjacency matrix 
+
+2. Adjancency list - each item has its own array of its neighbors. Its faster and more efficient with memory.
+    A. B C
+    B. A 
+    C. A D
+    D. C
+
+
+////MIT
+Reachable problem - which nodes can i reach from source node
+
+
+
+
 
 dfs - depth first search
 Depth-first search is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. 
